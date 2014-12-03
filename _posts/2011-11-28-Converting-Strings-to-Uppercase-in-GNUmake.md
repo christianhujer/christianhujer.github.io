@@ -55,11 +55,3 @@ foo: foo.o $(sources:.c=.o)
 clean:
         rm -f foo $(sources:.c=.o) $(sources:.c=.d)
 {% endhighlight %}
-
-{% highlight java linenos %}
-public class Hello {
-    public static void main(final String... args) {
-        System.out.println("Hello, world!");
-    }
-}
-{% endhighlight %}
