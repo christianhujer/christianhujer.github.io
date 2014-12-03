@@ -7,7 +7,7 @@ GNUmake doesn't have a feature to convert Strings to uppercase. But hey, UNIX wo
 
 The demo use case is to pass a define to the C compiler that contains the filename stem converted to uppercase.
 
-~~~
+~~~ make
 override CPPFLAGS+=-DFILE=FID_$${MODULE^^}
 
 SHELL:=bash
@@ -35,7 +35,7 @@ Btw. this Makefile is complete and will work for a lot of simple C projects.
 
 You can also easily extend this Makefile to support an incremental build:
 
-~~~
+~~~ make
 override CPPFLAGS+=-MMD -DFILE=FID_$${MODULE^^}
 
 SHELL:=bash
