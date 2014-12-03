@@ -7,7 +7,7 @@ GNUmake doesn't have a feature to convert Strings to uppercase. But hey, UNIX wo
 
 The demo use case is to pass a define to the C compiler that contains the filename stem converted to uppercase.
 
-~~~ makefile
+{% highlight make linenos %}
 override CPPFLAGS+=-DFILE=FID_$${MODULE^^}
 
 SHELL:=bash
@@ -24,7 +24,7 @@ foo: foo.o $(sources:.c=.o)
 .PHONY: clean
 clean:
         rm -f foo $(sources:.c=.o)
-~~~
+{% endhighlight %}
 
 This simple Makefile compiles and links a binary named foo from all C source files.
 The rule-specific variable `MODULE` is defined for `%.o` rules and contains the stem of the implicit rule match `%.o: %.c`.
@@ -35,7 +35,7 @@ Btw. this Makefile is complete and will work for a lot of simple C projects.
 
 You can also easily extend this Makefile to support an incremental build:
 
-~~~ Makefile
+{% highlight makefile linenos %}
 override CPPFLAGS+=-MMD -DFILE=FID_$${MODULE^^}
 
 SHELL:=bash
@@ -54,12 +54,12 @@ foo: foo.o $(sources:.c=.o)
 .PHONY: clean
 clean:
         rm -f foo $(sources:.c=.o) $(sources:.c=.d)
-~~~
+{% endhighlight %}
 
-~~~
+{% highlight java linenos %}
 public class Hello {
     public static void main(final String... args) {
         System.out.println("Hello, world!");
     }
 }
-~~~
+{% endhighlight %}
