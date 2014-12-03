@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-An Agilist  by heart.
+An Agilist and Software Craftsman by heart.
 
 Old website: [http://riedquat.de/](http://riedquat.de/)
 
