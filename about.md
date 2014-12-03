@@ -6,7 +6,7 @@ permalink: /about/
 
 An Agilist  by heart.
 
-Old website: http://riedquat.de/
+Old website: [http://riedquat.de/](http://riedquat.de/)
 
 ### Contact me
 
