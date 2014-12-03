@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+An Agilist  by heart.
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself. 
+Old website: http://riedquat.de/
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[Christian.Hujer@gmail.com](mailto:Christian.Hujer@gmail.com)
