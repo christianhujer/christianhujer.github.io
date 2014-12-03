@@ -18,16 +18,16 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble: 
-  email: 
-  facebook: 
+  email: Christian.Hujer@gmail.com
+  facebook: christianhujer
   flickr: 
-  github: barryclark/jekyll-now
+  github: christianhujer #barryclark/jekyll-now
   instagram: 
   linkedin: 
   pinterest: 
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: jekyllrb
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  twitter: #jekyllrb
+  stackoverflow: users/3554264/christian-hujer
 
 # Your disqus shortname, entering this will enable commenting on posts
 disqus: christianhujer
