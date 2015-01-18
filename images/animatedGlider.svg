@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+<!ENTITY scale "4">
+<!ENTITY size "&scale;2">
+<!ENTITY fgcolor "#1e5">
+]>
+<!-- Animated Glider created by Christian Hujer. -->
+<!-- Based on non-animated Glider created by Keith Packard. -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" width="&size;" height="&size;" id="glider">
+<defs>
+<pattern id="linePattern" patternUnits="userSpaceOnUse" x="0" y="0" width="&size;" height="2" viewBox="0 0 &size; 2">
+<line x1="0" y1="0" x2="&size;" y2="0" stroke="#000" opacity="0.25" stroke-width="1" />
+<line x1="0" y1="1" x2="&size;" y2="1" stroke="#000" opacity="0.75" stroke-width="1" />
+</pattern>
+<filter id="turb" filterUnits="userSpaceOnUse" x="0%" y="0%" width="100%" height="100%">
+<feTurbulence type="fractalNoise" baseFrequency="0.35" numOctaves="4" seed="0">
+<animate attributeName="seed" attributeType="XML" begin="0s" dur="1s" fill="freeze" from="0" to="24" repeatCount="indefinite" />
+</feTurbulence>
+</filter>
+</defs>
+<g>
+<rect width="100%" height="100%" fill="#000"/>
+<rect width="100%" height="100%" filter="url(#turb)" />
+<rect width="100%" height="100%" fill="url(#linePattern)" />
+</g>
+<g transform="translate(1,1)">
+<g transform="scale(&scale;, &scale;)">
+<g>
+<path id="grid" style="fill:none; stroke-linejoin:round; stroke-linecap:butt; stroke:&fgcolor;; stroke-width:.1;" d="M -2 -2 L 14 -2 L 14 14 L -2 14 Z M -2 0 L 14 0 M -2 2 L 14 2 M -2 4 L 14 4 M -2 6 L 14 6 M -2 8 L 14 8 M -2 10 L 14 10 M -2 12 L 14 12 M 0 -2 L 0 14 M 2 -2 L 2 14 M 4 -2 L 4 14 M 6 -2 L 6 14 M 8 -2 L 8 14 M 10 -2 L 10 14 M 12 -2 L 12 14" />
+<g style="fill: &fgcolor;;visibility: hidden;">
+<g>
+<ellipse cx="5" cy="3" rx=".65" ry=".65" />
+<ellipse cx="7" cy="5" rx=".65" ry=".65" />
+<ellipse cx="3" cy="7" rx=".65" ry=".65" />
+<ellipse cx="5" cy="7" rx=".65" ry=".65" />
+<ellipse cx="7" cy="7" rx=".65" ry=".65" />
+<set id="anim1" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; anim2.end" dur="0.5s" fill="remove" />
+<set id="anim2" attributeName="visibility" attributeType="CSS" to="hidden" begin="anim1.end" dur="1.5s" fill="remove" />
+</g>
+<g>
+<ellipse cx="3" cy="5" rx=".65" ry=".65" />
+<ellipse cx="7" cy="5" rx=".65" ry=".65" />
+<ellipse cx="5" cy="7" rx=".65" ry=".65" />
+<ellipse cx="7" cy="7" rx=".65" ry=".65" />
+<ellipse cx="5" cy="9" rx=".65" ry=".65" />
+<set id="anim3" attributeName="visibility" attributeType="CSS" to="visible" begin="0.5s; anim4.end" dur="0.5s" fill="remove" />
+<set id="anim4" attributeName="visibility" attributeType="CSS" to="hidden" begin="anim3.end" dur="1.5s" fill="remove" />
+</g>
+<g>
+<ellipse cx="7" cy="5" rx=".65" ry=".65" />
+<ellipse cx="3" cy="7" rx=".65" ry=".65" />
+<ellipse cx="7" cy="7" rx=".65" ry=".65" />
+<ellipse cx="5" cy="9" rx=".65" ry=".65" />
+<ellipse cx="7" cy="9" rx=".65" ry=".65" />
+<set id="anim5" attributeName="visibility" attributeType="CSS" to="visible" begin="1s; anim6.end" dur="0.5s" fill="remove" />
+<set id="anim6" attributeName="visibility" attributeType="CSS" to="hidden" begin="anim5.end" dur="1.5s" fill="remove" />
+</g>
+<g>
+<ellipse cx="5" cy="5" rx=".65" ry=".65" />
+<ellipse cx="7" cy="7" rx=".65" ry=".65" />
+<ellipse cx="9" cy="7" rx=".65" ry=".65" />
+<ellipse cx="5" cy="9" rx=".65" ry=".65" />
+<ellipse cx="7" cy="9" rx=".65" ry=".65" />
+<set id="anim7" attributeName="visibility" attributeType="CSS" to="visible" begin="1.5s; anim8.end" dur="0.5s" fill="remove" />
+<set id="anim8" attributeName="visibility" attributeType="CSS" to="hidden" begin="anim7.end" dur="1.5s" fill="remove" />
+</g>
+</g>
+<animateTransform attributeName="transform" attributeType="XML" type="translate" from="0, 0" to="-2, -2" dur="2s" additive="replace" fill="freeze" repeatCount="indefinite" />
+</g>
+</g>
+</g>
+</svg>
