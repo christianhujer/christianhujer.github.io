@@ -36,9 +36,9 @@ The keys can be typed as follows:
 
 Here's the sequence in pictures:
 
-<p><img src="images/KeyboardLayout1.png" alt="" /></p>
-<p><img src="images/KeyboardLayout2.png" alt="" /></p>
-<p><img src="images/KeyboardLayout3.png" alt="" /></p>
-<p><img src="images/KeyboardLayout4.png" alt="" /></p>
-<p><img src="images/KeyboardLayout5.png" alt="" /></p>
-<p><img src="images/KeyboardLayout6.png" alt="" /></p>
+<p><img src="/images/KeyboardLayout1.png" alt="" /></p>
+<p><img src="/images/KeyboardLayout2.png" alt="" /></p>
+<p><img src="/images/KeyboardLayout3.png" alt="" /></p>
+<p><img src="/images/KeyboardLayout4.png" alt="" /></p>
+<p><img src="/images/KeyboardLayout5.png" alt="" /></p>
+<p><img src="/images/KeyboardLayout6.png" alt="" /></p>
