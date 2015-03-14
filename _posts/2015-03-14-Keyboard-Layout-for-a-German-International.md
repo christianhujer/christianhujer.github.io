@@ -34,6 +34,8 @@ The keys can be typed as follows:
 | €         |       `alt 5` |
 |-----------+--------------:|
 
+This is also a good default setting for companies which are mixed English / German.
+
 Here's the sequence in pictures:
 
 <p><img src="/images/KeyboardLayout1.png" alt="" /></p>
