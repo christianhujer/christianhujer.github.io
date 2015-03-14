@@ -21,18 +21,18 @@ It can be easily configured in this way:
 
 The keys can be typed as follows:
 
-|--------------:+-----------|
-|     keystroke | character |
-|--------------:+-----------|
-|       `alt A` | ä         |
-| `alt shift A` | Ä         |
-|       `alt O` | ö         |
-| `alt shift O` | Ö         |
-|       `alt U` | ü         |
-| `alt shift U` | Ü         |
-|       `alt S` | ß         |
-|       `alt 5` | €         |
-|--------------:+-----------|
+|--------------:+-+-----------|
+|     keystroke | | character |
+|--------------:+-+-----------|
+|       `alt A` | | ä         |
+| `alt shift A` | | Ä         |
+|       `alt O` | | ö         |
+| `alt shift O` | | Ö         |
+|       `alt U` | | ü         |
+| `alt shift U` | | Ü         |
+|       `alt S` | | ß         |
+|       `alt 5` | | €         |
+|--------------:+-+-----------|
 
 This is also a good default setting for companies which are mixed English / German.
 
