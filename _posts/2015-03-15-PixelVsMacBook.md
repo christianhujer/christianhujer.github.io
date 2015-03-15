@@ -98,7 +98,6 @@ Yes.
             <td rowspan="2">Broadcom VideoCore IV</td>
         </tr>
         <tr>
-            <th>GPU</th>
             <td colspan="2">5300</td>
             <td colspan="2">5500</td>
         </tr>
