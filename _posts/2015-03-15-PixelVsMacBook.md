@@ -16,7 +16,7 @@ Yes.
             <th rowspan="2">Device</th>
             <th colspan="2">Apple MacBook</th>
             <th colspan="2">Google Chomebook Pixel</th>
-            <th rowspan="2">Raspberry Pi 2</th>
+            <th colspan="2">Raspberry Pi 2</th>
         </tr>
         <tr>
             <th>Basic model</th>
@@ -168,11 +168,20 @@ Yes.
         <tr>
             <th>USB 2.0 Ports</th>
             <td colspan="2">n/a</td>
-            <td colspan="2">2</td>
+            <td colspan="2">n/a</td>
             <td>4</td>
         </tr>
         <tr>
-            <th>
+            <th>USB 3.0 Ports</th>
+            <td colspan="2">n/a</td>
+            <td colspan="2">2</td>
+            <td>n/a</td>
+        </tr>
+        <tr>
+            <th>USB-C Ports</th>
+            <td colspan="2">1</td>
+            <td colspan="2">2</td>
+            <td>n/a</td>
         </tr>
         <tr>
             <th>Ethernet</th>
