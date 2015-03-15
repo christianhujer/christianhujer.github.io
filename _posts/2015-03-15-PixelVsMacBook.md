@@ -11,6 +11,9 @@ Uh, Raspberry Pi?
 Yes.
 
 <table class="bordertable">
+    <caption>Comparison of the technical specifications of Apple MacBook 2015, Google Chromebook Pixel 2015 and Raspberry Pi 2</caption>
+    <colgroup span="2" />
+    <colgroup span="6" />
     <thead>
         <tr>
             <th colspan="2">Device</th>
