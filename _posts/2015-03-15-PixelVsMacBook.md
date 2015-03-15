@@ -276,6 +276,10 @@ And I'm not talking of the overpriced as usual.
 The MacBook is a stupid rip-off.
 480p camera? Intel Core M CPU? Only one USB port? Apple, ARE YOU SERIOUS?!
 
+The lack of a supporting 1920 × 1080 as a scaled resolution also is a nogo.
+These days 1920 × 1080 is the perfect resolution for creating screen casts.
+And according to the specs, the MacBook simply doesn't support it.
+
 #### Google Chromebook Pixel (2015)
 The Google Chromebook Pixel makes a solid, decent impression.
 The only flaw is the poor camera: A 720p camera is not appropriate for a mid-range device in 2015.
