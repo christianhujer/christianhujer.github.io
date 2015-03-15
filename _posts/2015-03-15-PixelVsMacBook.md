@@ -10,213 +10,259 @@ The comparison of the Google Chromebook Pixel, the Apple MacBook and the Raspber
 Uh, Raspberry Pi?
 Yes.
 
-<table class="bordertable">
+<table class="bordertable" border="border">
     <thead>
         <tr>
-            <th rowspan="2">Device</th>
+            <th colspan="2">Device</th>
             <th colspan="2">Apple MacBook</th>
             <th colspan="2">Google Chomebook Pixel</th>
             <th colspan="2">Raspberry Pi 2</th>
         </tr>
         <tr>
-            <th>Basic model</th>
-            <th>Top model</th>
-            <th>Basic model</th>
-            <th>Top model</th>
+            <th colspan="2">Model</th>
+            <th>Basic</th>
+            <th>Top</th>
+            <th>Basic</th>
+            <th>Top</th>
+            <th>Basic</th>
+            <th>Top</th>
         </tr>
     </thead>
     <tbody>
         <tr>
+            <th rowspan="4">Case</th>
             <th>Width</th>
             <td colspan="2">280.5 mm</td>
             <td colspan="2">297.7 mm</td>
-            <td></td>
+            <td rowspan="4" colspan="2">n/a</td>
         </tr>
         <tr>
             <th>Depth</th>
             <td colspan="2">196.50 mm</td>
             <td colspan="2">224.55 mm</td>
-            <td></td>
         </tr>
         <tr>
             <th>Height</th>
             <td colspan="2">13.1 mm</td>
             <td colspan="2">15.3 mm</td>
-            <td></td>
         </tr>
         <tr>
             <th>Weight</th>
             <td colspan="2">0.92 kg</td>
             <td colspan="2">1.5 kg</td>
-            <td></td>
         </tr>
+    </tbody>
+    <tbody>
         <tr>
-            <th rowspan="2">CPU</th>
+            <th rowspan="5">CPU</th>
+            <th rowspan="2">Model</th>
             <td colspan="4" style="text-align: center;">Intel Core</td>
-            <td rowspan="2" style="text-align: center;">ARM Cortex-A7</td>
+            <td colspan="2" style="text-align: center;">ARM</td>
         </tr>
         <tr>
-            <td colspan="2">M</td>
+            <td style="text-align: center;" colspan="2">M</td>
             <td style="text-align: center;">i5</td>
             <td style="text-align: center;">i7</td>
+            <td style="text-align: center;" colspan="2">Cortex-A7</td>
         </tr>
         <tr>
-            <th>CPU Bits</th>
+            <th>Bits</th>
             <td colspan="4">64</td>
-            <td>32</td>
+            <td colspan="2">32</td>
         </tr>
         <tr>
-            <th>CPU Cores</th>
+            <th>Cores</th>
             <td colspan="4">2</td>
-            <td>4</td>
+            <td colspan="2">4</td>
         </tr>
         <tr>
-            <th>CPU Clock</th>
-            <td>1.1 GHz</td>
-            <td>1.3 GHz</td>
-            <td>2.2 GHz</td>
-            <td>2.4 GHz</td>
-            <td>900 MHz</td>
+            <th>Clock (MHz)</th>
+            <td>1100</td>
+            <td>1300</td>
+            <td>2200</td>
+            <td>2400</td>
+            <td colspan="2">900</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <th rowspan="2">RAM</th>
+            <th>Size (GiB)</th>
+            <td colspan="3">8</td>
+            <td>16</td>
+            <td colspan="2">1</td>
         </tr>
         <tr>
-            <th>RAM</th>
-            <td colspan="3">8 GiB</td>
-            <td>16 GiB</td>
-            <td>1 GiB</td>
-        </tr>
-        <tr>
-            <th>RAM Clock</th>
+            <th>Clock</th>
             <td colspan="2">1600 MHz</td>
             <td colspan="2">?</td>
-            <td>?</td>
+            <td colspan="2">?</td>
         </tr>
+    </tbody>
+    <tbody>
         <tr>
-            <th rowspan="2">GPU</th>
+            <th rowspan="2" colspan="2">GPU</th>
             <td colspan="4">Intel HD Graphics</td>
-            <td rowspan="2">Broadcom VideoCore IV</td>
+            <td colspan="2" rowspan="2">Broadcom VideoCore IV</td>
         </tr>
         <tr>
             <td colspan="2">5300</td>
             <td colspan="2">5500</td>
         </tr>
+    </tbody>
+    <tbody>
         <tr>
-            <th>Flash Storage</th>
-            <td>256 GB</td>
-            <td>512 GB</td>
-            <td>32 GB</td>
-            <td>64 GB</td>
-            <td>16 GB</td>
+            <th colspan="2">Flash Storage (GB)</th>
+            <td>256</td>
+            <td>512</td>
+            <td>32</td>
+            <td>64</td>
+            <td>16</td>
+            <td>128</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <th rowspan="2">Battery</th>
+            <th>Capacity</th>
+            <td colspan="4">?</td>
+            <td colspan="2" rowspan="2">n/a</td>
         </tr>
         <tr>
-            <th>Battery</th>
+            <th>Runtime</th>
             <td colspan="4">Up to 12 hours</td>
-            <td></td>
         </tr>
+    </tbody>
+    <tbody>
         <tr>
-            <th>Display Size</th>
+            <th rowspan="6">Display</th>
+            <th>Size</th>
             <td colspan="2">12"</td>
             <td colspan="2">12.85"</td>
-            <td></td>
+            <td rowspan="6" colspan="2">n/a</td>
         </tr>
         <tr>
-            <th>Display Touch</th>
-            <td colspan="2">n/a</td>
+            <th>Touch</th>
+            <td colspan="2">no</td>
             <td colspan="2">Multi-touch</td>
-            <td></td>
         </tr>
         <tr>
-            <th>Display Resolution</th>
+            <th>Resolution</th>
             <td colspan="2">2304 × 1440</td>
             <td colspan="2">2560 × 1700</td>
-            <td></td>
         </tr>
         <tr>
-            <th>Display ppi</th>
+            <th>ppi</th>
             <td colspan="2">226</td>
             <td colspan="2">239</td>
-            <td></td>
         </tr>
         <tr>
-            <th>Display aspect ratio</th>
+            <th>aspect ratio</th>
             <td colspan="2">16:10</td>
             <td colspan="2">3:2</td>
-            <td></td>
         </tr>
         <tr>
-            <th>Display supported scaled resolutions</th>
+            <th>supported<br />scaled<br />resolutions</th>
             <td colspan="2">1440 × 900<br />1280 × 800<br />1024 × 640</td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td colspan="2">?</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <th rowspan="2">HDMI</th>
+            <th>Ports</th>
+            <td colspan="4">via USB Type-C (Adapter sold separately)</td>
+            <td colspan="2">1</td>
         </tr>
         <tr>
-            <th>Bluetooth</th>
+            <th>Max Resolution</th>
+            <td colspan="2">3840 × 2160</td>
+            <td colspan="2">3840 × 2160 (?)</td>
+            <td colspan="2">1920 × 1200</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <th rowspan="2">Camera</th>
+            <th>Format</th>
+            <td colspan="2">480p</td>
+            <td colspan="2">720p</td>
+            <td colspan="2">1080p</td>
+        </tr>
+        <tr>
+            <th>H.264</th>
+            <td colspan="4">unknown</td>
+            <td colspan="2">yes</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <th colspan="2">Bluetooth</th>
             <td colspan="4">Bluetooth 4.0</td>
-            <td></td>
+            <td>no</td>
+            <td>Bluetooth 4.0</td>
         </tr>
+    </tbody>
+    <tbody>
         <tr>
+            <th rowspan="2">Network</th>
             <th>Wi-Fi</th>
             <td colspan="4">802.11 a/b/g/n/ac</td>
-            <td></td>
+            <td>no</td>
+            <td>802.11 a/b/g/n/ac</td>
         </tr>
         <tr>
-            <th>HDMI Port</th>
-            <td colspan="2">via USB Type-C (Adapter sold separately)</td>
-            <td colspan="2">via USB Type-C (Adapter sold separately)</td>
-            <td>1</td>
+            <th>Ethernet</th>
+            <td colspan="4">n/a</td>
+            <td colspan="2">RJ-45 100 MBit/s</td>
         </tr>
+    </tbody>
+    <tbody>
         <tr>
-            <th>USB 2.0 Ports</th>
+            <th rowspan="3">USB</th>
+            <th>2.0 Ports</th>
             <td colspan="2">n/a</td>
             <td colspan="2">n/a</td>
             <td>4</td>
+            <td>2</td>
         </tr>
         <tr>
-            <th>USB 3.0 Ports</th>
+            <th>3.0 Ports</th>
             <td colspan="2">n/a</td>
             <td colspan="2">2</td>
-            <td>n/a</td>
+            <td colspan="2">n/a</td>
         </tr>
         <tr>
             <th>USB-C Ports</th>
             <td colspan="2">1</td>
             <td colspan="2">2</td>
-            <td>n/a</td>
+            <td colspan="2">n/a</td>
         </tr>
+    </tbody>
+    <tbody>
         <tr>
-            <th>Ethernet</th>
-            <td colspan="4">n/a</td>
-            <td>RJ-45 100 MBit/s</td>
-        </tr>
-        <tr>
-            <th>Camera</th>
-            <td colspan="2">480p</td>
-            <td colspan="2">720p</td>
-            <td>1080p</td>
-        </tr>
-        <tr>
-            <th>H.264</th>
-            <td colspan="2">unknown</td>
-            <td colspan="2">yes</td>
-            <td>yes</td>
-        </tr>
-        <tr>
-            <th>Card Reader</th>
+            <th colspan="2">Card Reader</th>
             <td colspan="2">n/a</td>
             <td colspan="2">SD</td>
-            <td>n/a</td>
+            <td colspan="2">n/a</td>
         </tr>
+    </tbody>
+    <tbody>
         <tr>
-            <th>Operating System</th>
+            <th colspan="2">Native Operating System</th>
             <td colspan="2">Mac OS X Yosemite</td>
             <td colspan="2">Google Chrome OS</td>
+            <td colspan="2">Misc</td>
         </tr>
+    </tbody>
+    <tbody>
         <tr>
-            <th>Price</th>
+            <th colspan="2">Price</th>
             <td>$1299</td>
             <td>$1599</td>
             <td>$999</td>
             <td>$1299</td>
+            <td>ca. $60¹</td>
             <td>ca. $100¹</td>
         </tr>
     </tbody>
