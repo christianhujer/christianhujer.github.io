@@ -10,7 +10,7 @@ The comparison of the Google Chromebook Pixel, the Apple MacBook and the Raspber
 Uh, Raspberry Pi?
 Yes.
 
-<table class="bordertable" border="border">
+<table class="bordertable">
     <thead>
         <tr>
             <th colspan="2">Device</th>
