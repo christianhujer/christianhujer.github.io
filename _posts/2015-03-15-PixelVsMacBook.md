@@ -1,4 +1,6 @@
----
+PI--
+sts/2015-03-15-PixelVsMacBook.md 
+
 layout: post
 title: Pixel vs MacBook vs Pi
 ---
@@ -52,13 +54,13 @@ Yes.
         </tr>
         <tr>
             <th rowspan="2">CPU</th>
-            <td colspan="4" align="center">Intel Core</td>
-            <td rowspan="2" align="center">ARM Cortex-A7</td>
+            <td colspan="4" style="text-align: center;">Intel Core</td>
+            <td rowspan="2" style="text-align: center;">ARM Cortex-A7</td>
         </tr>
         <tr>
             <td colspan="2">M</td>
-            <td align="center">i5</td>
-            <td align="center">i7</td>
+            <td style="text-align: center;">i5</td>
+            <td style="text-align: center;">i7</td>
         </tr>
         <tr>
             <th>CPU Bits</th>
