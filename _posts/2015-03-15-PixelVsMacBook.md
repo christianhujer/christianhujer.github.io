@@ -10,10 +10,10 @@ The comparison of the Google Chromebook Pixel, the Apple MacBook and the Raspber
 Uh, Raspberry Pi?
 Yes.
 
-<table>
+<table border="1">
     <thead>
         <tr>
-            <th rowspan="2">Device</th>
+            <th>Device</th>
             <th colspan="2">Apple MacBook</th>
             <th colspan="2">Google Chomebook Pixel</th>
             <th rowspan="2">Raspberry Pi</th>
@@ -159,7 +159,7 @@ Yes.
         <tr>
             <th>USB Ports</th>
             <td colspan="2">n/a</td>
-            <td colspan="2">
+            <td colspan="2"></td>
         </tr>
         <tr>
             <th>Camera</th>
