@@ -13,7 +13,7 @@ Yes.
 <table border="1">
     <thead>
         <tr>
-            <th>Device</th>
+            <th rowspan="2">Device</th>
             <th colspan="2">Apple MacBook</th>
             <th colspan="2">Google Chomebook Pixel</th>
             <th rowspan="2">Raspberry Pi</th>
