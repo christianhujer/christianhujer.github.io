@@ -52,13 +52,13 @@ Yes.
         </tr>
         <tr>
             <th rowspan="2">CPU</th>
-            <td colspan="4">Intel Core</td>
-            <td rowspan="2">ARM Cortex-A7</td>
+            <td colspan="4" align="center">Intel Core</td>
+            <td rowspan="2" align="center">ARM Cortex-A7</td>
         </tr>
         <tr>
             <td colspan="2">M</td>
-            <td>i5</td>
-            <td>i7</td>
+            <td align="center">i5</td>
+            <td align="center">i7</td>
         </tr>
         <tr>
             <th>CPU Bits</th>
