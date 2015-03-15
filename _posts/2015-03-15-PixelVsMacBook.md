@@ -1,6 +1,4 @@
-PI--
-sts/2015-03-15-PixelVsMacBook.md 
-
+--
 layout: post
 title: Pixel vs MacBook vs Pi
 ---
