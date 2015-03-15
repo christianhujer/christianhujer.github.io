@@ -262,16 +262,32 @@ Yes.
             <td>$1599</td>
             <td>$999</td>
             <td>$1299</td>
-            <td>ca. $60¹</td>
-            <td>ca. $100¹</td>
+            <td>ca. $60</td>
+            <td>ca. $100</td>
         </tr>
     </tbody>
 </table>
 
-#### Legend
-¹: Price includes Raspberry Pi, case, charger, camera, WiFi-dongle, HDMI cable, Ethernet cable, normal keyboard / mouse
+### Conclusion
 
-#### Sources of information
+#### Apple MacBook
+Compared with what you get, Apple seems totally overpriced.
+And I'm not talking of the overpriced as usual.
+The MacBook is a stupid rip-off.
+480p camera? Intel Core M CPU? Only one USB port? Apple, ARE YOU SERIOUS?!
+
+#### Google Chromebook Pixel (2015)
+The Google Chromebook Pixel makes a solid, decent impression.
+The only flaw is the poor camera: A 720p camera is not appropriate for a mid-range device in 2015.
+
+#### Raspberry Pi 2
+Of course, the comparison is strange.
+But it opens your eyes about where the money goes.
+Are the Intel CPU/GPU, the RAM, the case, the display really worth that much?
+Are they needed?
+The performance attributes of the Raspberry Pi 2 are that of a netbook - but so are those of the Apple MacBook.
+
+### Sources of information
 <dl>
 <dt>Apple MacBook</dt>
 <dd><a href="http://www.apple.com/macbook/specs/">Apple MacBook Tech Specs</a> (Apple)</dd>
