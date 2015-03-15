@@ -37,7 +37,7 @@ Yes.
             <th>Width</th>
             <td colspan="2">280.5 mm</td>
             <td colspan="2">297.7 mm</td>
-            <td rowspan="4" colspan="2">n/a</td>
+            <td rowspan="4" colspan="2" class="na">n/a</td>
         </tr>
         <tr>
             <th>Depth</th>
@@ -129,7 +129,7 @@ Yes.
             <th rowspan="2">Battery</th>
             <th>Capacity</th>
             <td colspan="4">?</td>
-            <td colspan="2" rowspan="2">n/a</td>
+            <td colspan="2" rowspan="2" class="na">n/a</td>
         </tr>
         <tr>
             <th>Runtime</th>
@@ -142,7 +142,7 @@ Yes.
             <th>Size</th>
             <td colspan="2">12"</td>
             <td colspan="2">12.85"</td>
-            <td rowspan="6" colspan="2">n/a</td>
+            <td rowspan="6" colspan="2" class="na">n/a</td>
         </tr>
         <tr>
             <th>Touch</th>
@@ -216,7 +216,7 @@ Yes.
         </tr>
         <tr>
             <th>Ethernet</th>
-            <td colspan="4">n/a</td>
+            <td colspan="4" class="na">n/a</td>
             <td colspan="2">RJ-45 100 MBit/s</td>
         </tr>
     </tbody>
@@ -224,22 +224,21 @@ Yes.
         <tr>
             <th rowspan="3">USB</th>
             <th>2.0 Ports</th>
-            <td colspan="2">n/a</td>
-            <td colspan="2">n/a</td>
+            <td colspan="4" class="na">n/a</td>
             <td>4</td>
             <td>2</td>
         </tr>
         <tr>
             <th>3.0 Ports</th>
-            <td colspan="2">n/a</td>
+            <td colspan="2" class="na">n/a</td>
             <td colspan="2">2</td>
-            <td colspan="2">n/a</td>
+            <td colspan="2" class="na">n/a</td>
         </tr>
         <tr>
             <th>USB-C Ports</th>
             <td colspan="2">1</td>
             <td colspan="2">2</td>
-            <td colspan="2">n/a</td>
+            <td colspan="2" class="na">n/a</td>
         </tr>
     </tbody>
     <tbody>
