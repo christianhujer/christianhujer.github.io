@@ -18,7 +18,7 @@ Yes.
         <tr>
             <th colspan="2">Device</th>
             <th colspan="2">Apple MacBook</th>
-            <th colspan="2">Google Chomebook Pixel</th>
+            <th colspan="2">Google Chromebook Pixel</th>
             <th colspan="2">Raspberry Pi 2</th>
         </tr>
         <tr>
