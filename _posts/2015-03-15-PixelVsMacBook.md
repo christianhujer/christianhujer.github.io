@@ -30,21 +30,25 @@ Yes.
             <th>Width</th>
             <td colspan="2">280.5 mm</td>
             <td colspan="2">297.7 mm</td>
+            <td></td>
         </tr>
         <tr>
             <th>Depth</th>
             <td colspan="2">196.50 mm</td>
             <td colspan="2">224.55 mm</td>
+            <td></td>
         </tr>
         <tr>
             <th>Height</th>
             <td colspan="2">13.1 mm</td>
             <td colspan="2">15.3 mm</td>
+            <td></td>
         </tr>
         <tr>
             <th>Weight</th>
             <td colspan="2">0.92 kg</td>
             <td colspan="2">1.5 kg</td>
+            <td></td>
         </tr>
         <tr>
             <th>CPU</th>
@@ -101,6 +105,7 @@ Yes.
             <th>Battery</th>
             <td colspan="2"></td>
             <td colspan="2">Up to 12 hours</td>
+            <td></td>
         </tr>
         <tr>
             <th>Display Size</th>
