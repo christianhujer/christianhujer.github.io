@@ -1,4 +1,4 @@
---
+---
 layout: post
 title: Pixel vs MacBook vs Pi
 ---
