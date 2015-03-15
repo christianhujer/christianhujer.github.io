@@ -16,7 +16,7 @@ Yes.
             <th rowspan="2">Device</th>
             <th colspan="2">Apple MacBook</th>
             <th colspan="2">Google Chomebook Pixel</th>
-            <th rowspan="2">Raspberry Pi</th>
+            <th rowspan="2">Raspberry Pi 2</th>
         </tr>
         <tr>
             <th>Basic model</th>
@@ -51,11 +51,14 @@ Yes.
             <td></td>
         </tr>
         <tr>
-            <th>CPU</th>
-            <td colspan="2">Intel Core M</td>
-            <td>Intel Core i5</td>
-            <td>Intel Core i7</td>
-            <td>ARM Cortex-A7</td>
+            <th rowspan="2">CPU</th>
+            <td colspan="4">Intel Core</td>
+            <td rowspan="2">ARM Cortex-A7</td>
+        </tr>
+        <tr>
+            <td colspan="2">M</td>
+            <td>i5</td>
+            <td>i7</td>
         </tr>
         <tr>
             <th>CPU Bits</th>
@@ -88,23 +91,26 @@ Yes.
             <td>?</td>
         </tr>
         <tr>
-            <th>GPU</th>
-            <td colspan="2">Intel HD Graphics 5300</td>
-            <td colspan="2">Intel HD Graphics 5500</td>
-            <td>Broadcom VideoCore IV</td>
+            <th rowspan="2">GPU</th>
+            <td colspan="4">Intel HD Graphics</td>
+            <td rowspan="2">Broadcom VideoCore IV</td>
         </tr>
         <tr>
-            <th>Storage</th>
-            <td>256 GB SSD</td>
-            <td>512 GB SSD</td>
-            <td>32 GB SSD</td>
-            <td>64 GB SSD</td>
-            <td>16 GB SSD</td>
+            <th>GPU</th>
+            <td colspan="2">5300</td>
+            <td colspan="2">5500</td>
+        </tr>
+        <tr>
+            <th>Flash Storage</th>
+            <td>256 GB</td>
+            <td>512 GB</td>
+            <td>32 GB</td>
+            <td>64 GB</td>
+            <td>16 GB</td>
         </tr>
         <tr>
             <th>Battery</th>
-            <td colspan="2"></td>
-            <td colspan="2">Up to 12 hours</td>
+            <td colspan="4">Up to 12 hours</td>
             <td></td>
         </tr>
         <tr>
@@ -146,25 +152,33 @@ Yes.
         </tr>
         <tr>
             <th>Bluetooth</th>
-            <td colspan="2">Bluetooth 4.0</td>
-            <td colspan="2">Bluetooth 4.0</td>
+            <td colspan="4">Bluetooth 4.0</td>
             <td></td>
         </tr>
         <tr>
             <th>Wi-Fi</th>
-            <td colspan="2">802.11 a/b/g/n/ac</td>
-            <td colspan="2">802.11 a/b/g/n/ac</td>
+            <td colspan="4">802.11 a/b/g/n/ac</td>
+            <td></td>
         </tr>
         <tr>
-            <th>HDMI Ports</th>
-            <td colspan="2">via USB Type-C (Adapter required)</td>
-            <td colspan="2">via USB Type-C (Adapter required)</td>
+            <th>HDMI Port</th>
+            <td colspan="2">via USB Type-C (Adapter sold separately)</td>
+            <td colspan="2">via USB Type-C (Adapter sold separately)</td>
             <td>1</td>
         </tr>
         <tr>
-            <th>USB Ports</th>
+            <th>USB 2.0 Ports</th>
             <td colspan="2">n/a</td>
-            <td colspan="2"></td>
+            <td colspan="2">2</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <th>
+        </tr>
+        <tr>
+            <th>Ethernet</th>
+            <td colspan="4">n/a</td>
+            <td>RJ-45 100 MBit/s</td>
         </tr>
         <tr>
             <th>Camera</th>
@@ -185,15 +199,23 @@ Yes.
             <td>n/a</td>
         </tr>
         <tr>
+            <th>Operating System</th>
+            <td colspan="2">Mac OS X Yosemite</td>
+            <td colspan="2">Google Chrome OS</td>
+        </tr>
+        <tr>
             <th>Price</th>
             <td>$1299</td>
             <td>$1599</td>
             <td>$999</td>
             <td>$1299</td>
-            <td></td>
+            <td>ca. $100¹</td>
         </tr>
     </tbody>
 </table>
+
+#### Legend
+¹: Price includes Raspberry Pi, case, charger, camera, WiFi-dongle, HDMI cable, Ethernet cable, normal keyboard / mouse
 
 #### Sources of information
 <dl>
