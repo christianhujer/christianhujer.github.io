@@ -279,7 +279,7 @@ And I'm not talking of the overpriced as usual.
 The MacBook is a stupid rip-off.
 480p camera? Intel Core M CPU? Only one USB port? Apple, ARE YOU SERIOUS?!
 
-The lack of a supporting 1920 × 1080 as a scaled resolution also is a nogo.
+The lack of 1920 × 1080 as a scaled resolution also is a no-go.
 These days 1920 × 1080 is the perfect resolution for creating screen casts.
 And according to the specs, the MacBook simply doesn't support it.
 
