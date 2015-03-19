@@ -76,3 +76,7 @@ So here's my hitlist of how to *breakdown a programming project*.
 Above list is certainly incomplete, and some parts might even be disputable!
 
 Found something that's missing? Disagree with something? Please join the discussion below!
+
+References:
+
+- SMURFS: http://www.agileconnection.com/article/instead-mvps-maybe-we-should-be-releasing-smurfs
