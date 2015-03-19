@@ -126,7 +126,7 @@ Yes.
     </tbody>
     <tbody>
         <tr>
-            <th rowspan="2">Battery</th>
+            <th rowspan="3">Battery</th>
             <th>Capacity</th>
             <td colspan="4">?</td>
             <td colspan="2" rowspan="2" class="na">n/a</td>
@@ -134,6 +134,11 @@ Yes.
         <tr>
             <th>Runtime</th>
             <td colspan="4">Up to 12 hours</td>
+        </tr>
+        <tr>
+            <th>Max Cons.</th>
+            <td colspan="4">?</td>
+            <td colspan="2">700 ma</td>
         </tr>
     </tbody>
     <tbody>
