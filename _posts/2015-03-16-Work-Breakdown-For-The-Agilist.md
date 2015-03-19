@@ -49,9 +49,9 @@ So here's my hitlist of how to *breakdown a programming project*.
 - Story -> Acceptance Criteria (Product Owner)
 - Story -> Subtasks (Dev Team)
 - Acceptance Criteria -> Acceptance Tests (Spec: Product Owner, Impl: Dev Team)
-- Start with a Walking Skeleton.
-- Then Create an MVP - Minimum Viable Product.
-- Expand the MVP using SMURFS - Specifically Marketable, Useful, Releasable Feature Sets.
+- Start with a *Walking Skeleton*.
+- Create an *MVP - Minimum Viable Product*.
+- Expand the MVP using *SMURFS - Specifically Marketable, Useful, Releasable Feature Sets*.
 
 ## "How world" realization
 - Use *OOA/D*, *UML* and *CRC Cards*, but *avoid the big design upfront*.
