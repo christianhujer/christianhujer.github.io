@@ -133,7 +133,8 @@ Yes.
         </tr>
         <tr>
             <th>Runtime</th>
-            <td colspan="4">Up to 12 hours</td>
+            <td colspan="2">Up to 10 hours</td>
+            <td colspan="2">Up to 12 hours</td>
         </tr>
         <tr>
             <th>Max Cons.</th>
@@ -307,3 +308,8 @@ The performance attributes of the Raspberry Pi 2 are that of a netbook - but so 
 <dt>Raspberry Pi</dt>
 <dd><a href="http://en.wikipedia.org/wiki/Raspberry_Pi">Raspberri Pi</a> (Wikipedia)</dd>
 </dl>
+
+### Updates
+
+#### 2015-03-30
+- Changed battery runtime for Apple MacBook from 12 hours to 10 hours, as this is what [http://www.apple.com/macbook/specs/] says.
