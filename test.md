@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Lesson: Lines and Line Endings
 ---
 
