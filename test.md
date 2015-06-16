@@ -1,26 +1,32 @@
 ---
-layout: default
+layout: post
 title: Lesson: Lines and Line Endings
 ---
 
 # Lesson: Lines and Line Endings
 
 You create an (almost?) empty file named empty.md. You create it the following way:
+
     $ touch empty.md
+
 Is it really empty? How can you verify whether it is really empty?
 How many characters does it contain?
 How many lines does it contain?
 How can you verify how many characters or lines it contains? (Hint: There’s a UNIX command which can do that for you.)
 
 You create an (almost?) empty file named empty2.md. You create it the following way:
+
     $ echo >empty2.md
+
 Is it really empty?
 How many lines does it contain?
 How many characters does it contain?
 How can you print which characters it contains? (Hint: There’s a UNIX command which can dump binary files for you.)
 
 You create an (almost?) empty file named empty3.md. You create it the following way:
+
     $ echo -n >empty3.md
+
 Is it really empty?
 How many lines does it contain?
 How many characters does it contain?
