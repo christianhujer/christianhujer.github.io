@@ -23,3 +23,5 @@ You could also patch it yourself with the following sed script:
     $ sed -i -e "1 i\\NS_XHTML='http://www.w3.org/1999/xhtml';" -e 's/createElement(/createElementNS(NS_XHTML,/g' prettify.js
 
 A git clone of a patched version (currently only `prettify.js` is patched) is available here: <https://github.com/christianhujer/google-code-prettify>
+
+Google Code Prettify is hosted here: <https://code.google.com/p/google-code-prettify/>
