@@ -15,6 +15,7 @@ But if you find it interesting and helpful, I'd be delighted to know your feedba
 ## Goal / Requirements
 
 Recording excellent Screencasts.
+
 * Full HD Screen Resolution
 * Full HD cameras from different angles
 * Very good audio quality
