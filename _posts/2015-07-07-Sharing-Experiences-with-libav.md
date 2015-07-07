@@ -356,7 +356,7 @@ However, I haven't succeeded yet in getting audio and video recorded synchronous
 
 # Conclusion
 
-'libav' is a very powerful tool.
+`libav` is a very powerful tool.
 And the developers are very helpful.
 Right now, I cannot yet achieve with `libav` what I would like to achieve: Record top quality screen casts.
 But I think that I am getting closer.
