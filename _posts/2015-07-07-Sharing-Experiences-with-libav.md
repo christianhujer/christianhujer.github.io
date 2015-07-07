@@ -20,7 +20,7 @@ Recording excellent Screencasts.
 * Full HD cameras from different angles
 * Very good audio quality
 * Encoding the video in a format that's preferred by YouTube.
-  Best would be MP4 container with 48 kHz Stereo AAC-LC audio and Full-HD H.264 video as described on [https://support.google.com/youtube/answer/1722171?hl=en].
+  Best would be MP4 container with 48 kHz Stereo AAC-LC audio and Full-HD H.264 video as described on: https://support.google.com/youtube/answer/1722171?hl=en
 
 
 ## Parts List
