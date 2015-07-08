@@ -17,6 +17,8 @@ If you want to go somewhere, you check whether public transport is convenient, t
 If the convenience of public transport is good enough, you use it.
 Else you use your car or call a taxi.
 
+![A Tesla Model S and a Tesla Powerwall](http://www.teslamotors.com/sites/default/files/images/powerwall/models-powerwall.jpg)
+
 Life with Uber-run Tesla cars would look like this:
 If you want to go somewhere, you check whether public transport is convenient, taking into account aspects like walking distance to and from the stations, schedule and travel time, price, and if you have anything to carry.
 If the convenience of public transport is good enough, you use it.
