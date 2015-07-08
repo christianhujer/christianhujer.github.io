@@ -25,7 +25,10 @@ If the convenience of public transport is good enough, you use it.
 If you can get an Uber Tesla via the Uber App anywhere anytime, why would you still need to own a car?
 Already as of today, in a lot of urban regions, progress is measured by how many people no longer have a car.
 Car sharing has become popular.
-The primary reason for car sharing is being able to use the benefits of individual transport without the hassle of owning a car yourself (cost, taxes, maintenance)
+The primary reason for car sharing is being able to use the benefits of individual transport without the hassle of owning a car yourself (cost, taxes, maintenance).
+
+Ah yes, people will get unemployed - taxi drivers, car manufacturers, car sharers, garages.
+But for the sake of our planet, this is exactly what we need.
 
 # What else happens when Tesla takes over?
 
