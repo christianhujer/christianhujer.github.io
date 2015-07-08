@@ -9,6 +9,7 @@ The problem is: A Makefile that runs the goals that you want in the directories 
 
 This can be useful in several situations.
 Here are two of them:
+
 * You have a project that consists of various modules or components which are built separately.
   You want to build, or test, or clean all of them.
 * You have a project that builds software for multiple platforms or configurations.
