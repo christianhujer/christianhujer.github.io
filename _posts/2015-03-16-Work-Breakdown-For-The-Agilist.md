@@ -18,14 +18,15 @@ So here's my hitlist of how to *breakdown a programming project*.
 - *Democracy, but not too much.* Often it's not about what satisfies the biggest number of people, but what hurts the least number of people.
 - Keep *what* (needs to be done) and *how* (it is done) *separate*.
 - Learn about *Scrum* ("what"), *<abbr title="Extreme Programming">XP</abbr>* ("how"), *Kanban* ("how much"), *Lean* ("what not") and DevOps ("with whom").
+- *Lean* also is about *flow*: For overall efficiency, *flow efficiency* is usually more important than individual efficiency.
 - Learn about *Software Craftsmanship*, *Clean Code* and *Pragmatic Programming*.
 - Good architecture is about *maximizing the number of decisions not taken*.
 - Scrum / XP / Lean / Agile is about *maximizing the amount of work not done*. *<abbr title="You Ain't Gonna Need It">YAGNI</abbr>*.
-- The *Primary Value of Softtware* is that you can *easily change* it. That it does what it should do is important but that's only its *Secondary Value*.
+- The *Primary Value of Software* is that you can *easily change* it. That it does what it should do is important but that's only its *Secondary Value*.
 - Prefer an *iterative* approach, use *time boxes* for almost everything, especially meetings, make *Parkinson's Law* your friend.
 - Balance team structure with an understanding of *Conway's Law* and *Tuckman's Stages of Team Development*.
 - Programming is a quaternity, it is *science*, *engineering*, *art* and *craft* all at the same time, and those need to be in balance.
-- Just because *Scrum* / *XP* / XYZ is good for someone (including me) doesn't necessarily mean that it's also good for you / suits your environment. *Don't believe the hype*, don't blindly follow it, understand it first.
+- Just because *Scrum* / *XP* / *Lean* / *Kanban* / *DevOps* / XYZ is good for someone (including me) doesn't necessarily mean that it's also good for you / suits your environment. *Don't believe the hype*, don't blindly follow it, understand it first.
 - *Inspect and Adapt!* (Scrum Mantra)
 - *Avoid Duplication - Once and only Once!* (XP Mantra) aka *<abbr title="Don't Repeat Yourself">DRY</abbr>*.
 
@@ -58,7 +59,7 @@ So here's my hitlist of how to *breakdown a programming project*.
 - Implement *object-oriented*, *structured* and *functional* at the same time as much as possible, regardless of the programming language.
 - Use *Version Control* (preferably *distributed*).
 - Start with *Acceptance Tests*.
-- Apply *TDD*, leeting the *Three Laws of TDD* drive you through the *Red-Green-Refactor-Cycle*, with *Single-Assert-Rule*, *4 A's*, *GWT (Given When Then) from *BDD*.
+- Apply *TDD*, leeting the *Three Laws of TDD* drive you through the *Red-Green-Refactor-Cycle*, with *Single-Assert-Rule*, *4 A's*, *GWT* (Given When Then) from *BDD*.
 - Apply the *SOLID* and the *package principles* to manage *Coupling and Cohesion*. Example: S in SOLID is SRP = Single Responsibility Principle, significantly reduces the number of edit- resp. merge-conflicts in teams.
 - Know *Law of Demeter / Tell, Don't Ask*.
 - Use *Continuous Integration*, if applicable even *Continuous Delivery* (DevOps).
@@ -79,4 +80,4 @@ Found something that's missing? Disagree with something? Please join the discuss
 
 References:
 
-- SMURFS: http://www.agileconnection.com/article/instead-mvps-maybe-we-should-be-releasing-smurfs
+- SMURFS: <http://www.agileconnection.com/article/instead-mvps-maybe-we-should-be-releasing-smurfs>
