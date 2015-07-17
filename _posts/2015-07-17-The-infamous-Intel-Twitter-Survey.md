@@ -31,7 +31,7 @@ Intel is a technology brand, but it is not leading.
 AMD is leading.
 In the heads of many people who do not know the technical details or history or drivers, maybe Intel is leading, but in fact Intel isn't leading.
 Technological leadership is not defined in market shares but in contribution to renovation, innovation and invention.
-The relevant technologies in today's Intel CPUs are coming from AMD or have been forced onto Intel by their competitors..
+The relevant technologies in today's Intel CPUs are coming from AMD or have been forced onto Intel by their competitors.
 
 <blockquote><p>Do you agree that Intel makes your life better?</p></blockquote>
 
