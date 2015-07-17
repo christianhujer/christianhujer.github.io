@@ -10,7 +10,7 @@ Here are the questions:
 
 <blockquote><p>Do you agree that Intel is a brand that enables better experiences?</p></blockquote>
 
--> I strongly disagree.
+I strongly disagree.
 That is a comparative question.
 Better experience than what?
 Without?
@@ -20,13 +20,13 @@ I think ARM and AMD are both better than Intel.
 
 <blockquote><p>Do you agree that Intel is an innovative company?</p></blockquote>
 
--> I strongly disagree.
+I strongly disagree.
 Intel was "beaten" to 32 Bit by Motorola, "beaten" to 64 Bit by Alpha but then failed their own attempts (Itanium), AMD had to fix it (x64 is an AMD design, not an Intel design), and it was "beaten" to Multicore by AMD (Opteron).
 Intel is profiting much more from AMD innovation and the competition with AMD than from their own innovation or anything else.
 
 <blockquote><p>Do you agree that Intel is a leading technology brand?</p></blockquote>
 
--> I strongly disagree.
+I strongly disagree.
 Intel is a technology brand, but it is not leading.
 AMD is leading.
 In the heads of many people who do not know the technical details or history or drivers, maybe Intel is leading, but in fact Intel isn't leading.
@@ -35,7 +35,7 @@ The relevant technologies in today's Intel CPUs are coming from AMD or have been
 
 <blockquote><p>Do you agree that Intel makes your life better?</p></blockquote>
 
--> I strongly disagree.
+I strongly disagree.
 Intel does not make my life better.
 The world would either not be different at all, or much better if Intel were not around.
 What has Intel given us?
