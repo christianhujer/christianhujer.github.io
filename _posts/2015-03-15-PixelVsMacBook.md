@@ -312,4 +312,4 @@ The performance attributes of the Raspberry Pi 2 are that of a netbook - but so 
 ### Updates
 
 #### 2015-03-30
-- Changed battery runtime for Apple MacBook from 12 hours to 10 hours, as this is what (http://www.apple.com/macbook/specs/) says.
+- Changed battery runtime for Apple MacBook from 12 hours to 10 hours, as this is what <http://www.apple.com/macbook/specs/> says.
