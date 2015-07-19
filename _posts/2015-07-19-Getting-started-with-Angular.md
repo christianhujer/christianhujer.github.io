@@ -40,6 +40,9 @@ git clone https://github.com/anitakadam/ShoppingCart
 cd ShoppingCart
 {% endhighlight %}
 
+Note: Even if you already cloned, several of the subsequent commands require the project to be the current working directory.
+Therefore in any case `cd ShoppingCart`.
+
 ## 4. Use `npm` to install `bower`
 
 {% highlight bash linenos %}
