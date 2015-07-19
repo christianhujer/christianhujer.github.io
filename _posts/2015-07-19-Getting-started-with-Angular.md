@@ -4,6 +4,7 @@ title: Getting started with Angular
 ---
 
 My friends at [Equal Experts](http://www.equalexperts.in/) did this very nice example of how to get started with Angular.js.
+It involves a shopping cart and even a REST API to access the products "database".
 Here are the steps:
 
 ## 1. Install `nvm`, the Node Version Manager
