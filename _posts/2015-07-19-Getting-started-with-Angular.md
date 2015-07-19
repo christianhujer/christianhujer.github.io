@@ -50,3 +50,15 @@ This installs *node.js* (`node` and `npm`) in your home directory.
 ## 8. Open your browser and connect to <http://localhost:3000>
 
 ## 9. Enjoy
+
+## 10. All commands in one sequence
+
+    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.25.4/install.sh | bash
+    wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.25.4/install.sh | bash
+    nvm install node
+    git clone https://github.com/anitakadam/ShoppingCart
+    cd ShoppingCart
+    npm install -g bower
+    bower install
+    npm install
+    npm start
