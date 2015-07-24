@@ -76,3 +76,5 @@ I'd need either a faster machine or simply have to use something else.
 </table>
 
 # Conclusion
+Given the fact that the roundtrip times are essential for a good development speed, I am very surprised about the poor performance of Gradle as compared to `make`.
+I'll keep you posted about further experiences.
