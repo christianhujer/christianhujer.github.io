@@ -30,7 +30,7 @@ Recording excellent Screencasts.
 * 3 Logitech C920 USB webcams
 * A Logitech G430 USB Headset
 * A Kinobo "Natsuki" Mono USB Microphone with CM108 audio controller
-* Kubuntu 14.10
+* <del>Kubuntu 14.10</del><ins> Update 2015-07-28: Kubuntu 15.04</ins>
 * `libav`
 * audacity
 * Quassel IRC client (to communicate with `libav` developers)
@@ -80,10 +80,14 @@ Luca Barbato implemented this on 2015-02-27 in commit 9a26ba971387a348e14f363ddc
 
 Now, the H.264 stream from the webcam can be directly stored, which eats ~3% CPU.
 
+<ins>Update 2015-07-28: After replacing Kubuntu 14.10 with Kubuntu 15.04 and rebuilding `libav`, there is a new problem. Recording of videos from webcam seems to have become unstable and glitchy.</ins>
+
 
 ## `avconv` record video and audio out-of-sync
 
-The audio is usually between 1 and 4 seconds delayed as compared to the video.
+<del>The audio is usually between 1 and 4 seconds delayed as compared to the video.</del>
+
+<ins>Update 2015-07-28: After replacing Kubuntu 14.10 with Kubuntu 15.04, this problem is gone.</ins>
 
 
 ## Webcam video from Logitech C920 was "rolling"
@@ -270,11 +274,11 @@ They do not need much bandwidth, therefore clashes with the webcam are not expec
 
 ### From first Webcam 24 FPS Full HD as H.264 in an MP4 file
 
-    avconf -f video4linux2 -input_format h264 -r 24 -s 1920x1080 -i /dev/video0 output.mp4
+    avconv -f video4linux2 -input_format h264 -r 24 -s 1920x1080 -i /dev/video0 output.mp4
 
 ### From second Webcam 24 FPS Full HD as H.264 in a Matroska file
 
-    avconf -f video4linux2 -input_format h264 -r 24 -s 1920x1080 -i /dev/video1 output.mkv
+    avconv -f video4linux2 -input_format h264 -r 24 -s 1920x1080 -i /dev/video1 output.mkv
 
 ## Multiple Videos
 
@@ -286,7 +290,7 @@ They do not need much bandwidth, therefore clashes with the webcam are not expec
 
     avconv -f x11grab -r 24 -s 1920x1080 -i 0:0+1920,0 -f x11grab -r 24 -s 1920x1080 -i :0.0 -map 0:0 -map 1:0 output.mkv
 
-## Recoring 1 Audio + 1 Video
+## Recording 1 Audio + 1 Video
 
 ### From Microphone AC3 and Second Screen H.264 in a Matroska file
 
@@ -345,14 +349,16 @@ In my setup, that simply doesn't matter (yet?).
 
 ## Delay between Audio and Video
 
-It seems that the Audio and Video streams are not in sync.
+<del>It seems that the Audio and Video streams are not in sync.
 They start recording with offsets to each other.
 This is a serious issue, as it would mean that video editing involves sound synchronization.
 Sound synchronization is a step which I would like to skip when editing the videos.
-Cutting is enough.
+Cutting is enough.</del>
 
-With the help of the `libav` developers, I've been trying various things, including a few edits to the source code.
-However, I haven't succeeded yet in getting audio and video recorded synchronously.
+<del>With the help of the `libav` developers, I've been trying various things, including a few edits to the source code.
+However, I haven't succeeded yet in getting audio and video recorded synchronously.</del>
+
+<ins>Update 2015-07-28: After replacing Kubuntu 14.10 with Kubuntu 15.04, this problem is gone.</ins>
 
 
 # Conclusion
@@ -361,3 +367,5 @@ However, I haven't succeeded yet in getting audio and video recorded synchronous
 And the developers are very helpful.
 Right now, I cannot yet achieve with `libav` what I would like to achieve: Record top quality screen casts.
 But I think that I am getting closer.
+
+<ins>Update 2015-08-01: I'm considering to give `ffmpeg` a try as well.</ins>
