@@ -476,6 +476,8 @@ println(args.mkString(" "))
 # Conclusions
 
 It's obvious that there's more than one way to solve a problem.
+Languages which provide a proper `join()` function via the API somehow make the life easier.
+Of all the languages that do not provide such a `join()` function and the writes are performed immediately, I like the solution in Prolog best.
 
 ## Java 8 is awesome - almost!
 
