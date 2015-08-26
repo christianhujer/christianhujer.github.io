@@ -121,4 +121,4 @@ There are at least five, maybe more workarounds:
 * Write the IP address in your computer's `/etc/hosts` file. Many operating systems use this file first before using DNS. The format of that file is self-explanatory, you can edit it with any text-editor.
 * Use a different DNS server. Often the one from Google would still work, the IP addresses of the Google DNS servers are `8.8.8.8` and `8.8.4.4`.
 * Setup your own DNS server.
-* Use something like the Tor network.
+* Use something like the Tor network. **Warning** *Use Tor at your own risk! There's a lot of bad stuff going on inside the Tor network.*
