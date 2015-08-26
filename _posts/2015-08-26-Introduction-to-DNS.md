@@ -39,17 +39,25 @@ And maybe more.
 ### The record types
 This is advanced stuff for people who're not just using DNS, but making entries to the DNS themselves.
 
-|-------------+--------------------------+----------------------------------------------------|
-| Record Type | Purpose                  | Example                                            |
-|-------------+--------------------------+----------------------------------------------------|
-| A           | IPv4 Address Resolution  | `nelkinda.com` -> `5.35.240.170`                   |
-| AAAA        | IPv6 Address Resolutoin  | `nelkinda.com` -> `2a01:488:66:1000:523:f0aa:0:1`  |
-| MX          | Mail Exchange            | `nelkinda.com` -> `aspmx.l.google.com`             |
-| CNAME       | Alias Name               | `mail.nelkinda.com` -> `ghs.googlehosted.com`      |
-| NS          | Name Server              | `nelkinda.com` -> `ns1.whois.com`                  |
-| TXT         | Textual Meta Information | `nelkinda.com` -> `"google-site-verification=..."` |
-| SRV         | Service Lookup           | `_sip._tcp.nelkinda.com` -> `example.com:5060`     |
-|-------------+--------------------------+----------------------------------------------------+
+<table class="bordertable">
+<caption>DNS Record Types</caption>
+<thead>
+<tr>
+<th>Record Type</td>
+<th>Purpose</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>A          </td><td>IPv4 Address Resolution </td><td>`nelkinda.com` -> `5.35.240.170`                  </td></tr>
+<tr><td>AAAA       </td><td>IPv6 Address Resolutoin </td><td>`nelkinda.com` -> `2a01:488:66:1000:523:f0aa:0:1` </td></tr>
+<tr><td>MX         </td><td>Mail Exchange           </td><td>`nelkinda.com` -> `aspmx.l.google.com`            </td></tr>
+<tr><td>CNAME      </td><td>Alias Name              </td><td>`mail.nelkinda.com` -> `ghs.googlehosted.com`     </td></tr>
+<tr><td>NS         </td><td>Name Server             </td><td>`nelkinda.com` -> `ns1.whois.com`                 </td></tr>
+<tr><td>TXT        </td><td>Textual Meta Information</td><td>`nelkinda.com` -> `"google-site-verification=..."`</td></tr>
+<tr><td>SRV        </td><td>Service Lookup          </td><td>`_sip._tcp.nelkinda.com` -> `example.com:5060`    </td></tr>
+</tbody>
+</table>
 
 ### DNS and Redirection
 Imagine you use [Slack](http://slack.com/) for team communication, and you want that your team members can reach slack easily.
