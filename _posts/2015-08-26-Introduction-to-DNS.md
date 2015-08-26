@@ -7,7 +7,7 @@ DNS, the Domain Name System, is the service which makes it possible that you don
 Instead you can remember a name, like `www.nelkinda.com`.
 But how does it work?
 
-# The DNS Service
+## The DNS Service
 The DNS service consists of a tree of DNS servers which listen to UDP port 53 to incoming DNS resolution requests.
 If they know the answer, they reply with an address.
 
@@ -15,17 +15,17 @@ For example, when you connect your browser to `www.nelkinda.com`, what happens f
 The DNS server might then answer that the address is `5.35.240.170`.
 Then your browser connects to `5.35.240.170`.
 
-## Is it the same when I'm using a Proxy Server?
+### Is it the same when I'm using a Proxy Server?
 Almost.
 There's just a small difference.
 Your browser will connect with the proxy server, and the DNS request for the final destination will be performed by the proxy server, not your browser.
 
-## How does my computer know the DNS servers?
+### How does my computer know the DNS servers?
 In most cases, your computer will know them through DHCP from your DHCP server.
 And in many cases your DHCP server will know them from your provider via PPP.
 So you don't really need to worry about that.
 
-# DNS for Admins
+## DNS for Admins
 If you are a system administrator, DNS is of special interest to you.
 You use DNS for:
 
@@ -36,7 +36,7 @@ You use DNS for:
 * Authenticate your setup towards third parties like Google.
 And maybe more.
 
-## The record types
+### The record types
 This is advanced stuff for people who're not just using DNS, but making entries to the DNS themselves.
 
 |-------------+--------------------------+----------------------------------------------------|
@@ -51,7 +51,7 @@ This is advanced stuff for people who're not just using DNS, but making entries 
 | SRV         | Service Lookup           | `_sip._tcp.nelkinda.com` -> `example.com:5060`     |
 |-------------+--------------------------+----------------------------------------------------+
 
-## DNS and Redirection
+### DNS and Redirection
 Imagine you use [Slack](http://slack.com/) for team communication, and you want that your team members can reach slack easily.
 The address provided by slack would be `teamname.slack.com` but maybe you want that your team can use `slack.companyname.com` instead.
 
@@ -73,7 +73,7 @@ Replace `teamname.slack.com` with whatever is appropriate for you.
 
 The same can be used for other services as well, like Bitbucket, Github, Mingle, whatever you like.
 
-## DNS Redirection in the case of Google
+### DNS Redirection in the case of Google
 Google is a bit special in the sense of redirection.
 The above concept would work for Google.
 Google thinks this type of redirection is important for user convenience.
@@ -84,7 +84,7 @@ All you need to do is setup the name.
 Because in this case you don't point your name to an ip address but to another name, the record type to setup is not `A` / `AAAA` but `CNAME`.
 
 
-## Censorship with DNS - and how to Workaround
+### Censorship with DNS - and how to Workaround
 From time to time some governments think they can censor the Internet.
 The actual censorship is executed by the Internet providers of that country.
 Often, providers use DNS for censorship because it is quite cheap to implement.
