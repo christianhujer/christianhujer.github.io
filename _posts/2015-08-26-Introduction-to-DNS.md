@@ -43,7 +43,7 @@ This is advanced stuff for people who're not just using DNS, but making entries 
 <caption>DNS Record Types</caption>
 <thead>
 <tr>
-<th>Record Type</td>
+<th>Record Type</th>
 <th>Purpose</th>
 <th>Example</th>
 </tr>
