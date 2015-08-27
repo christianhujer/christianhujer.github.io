@@ -125,11 +125,11 @@ There are at least five, maybe more workarounds:
 
 
 ## References
-[1]: http://mediashift.org/2012/08/india-blocks-facebook-twitter-mass-texts-in-response-to-unrest241/ "Mediashift: India blocks Facebook, Twitter..."
-[2]: http://www.zdnet.com/article/india-blocks-32-websites-including-github-internet-archive-pastebin-vimeo/ "ZDNet: India blocks 32 Websites including Github..."
-[3]: https://twitter.com/pranesh_prakash/status/550196008416600064/photo/1?ref_src=twsrc%5Etfw "Twitter: "
-[4]: http://www.nytimes.com/2015/08/04/world/asia/india-orders-blocking-of-857-pornography-websites "New York Times: India orders blocking of 857 pornography websites"
-* [[1]] <http://mediashift.org/2012/08/india-blocks-facebook-twitter-mass-texts-in-response-to-unrest241/> Mediashift: India blocks Facebook, Twitter...
-* [[2]] <http://www.zdnet.com/article/india-blocks-32-websites-including-github-internet-archive-pastebin-vimeo/> ZDNet: India blocks 32 Websites including Github...
-* [[3]] <https://twitter.com/pranesh_prakash/status/550196008416600064/photo/1?ref_src=twsrc%5Etfw> Twitter:
-* [[4]] <http://www.nytimes.com/2015/08/04/world/asia/india-orders-blocking-of-857-pornography-websites> New York Times: India orders blocking of 857 pornography websites
+[1]: http://mediashift.org/2012/08/india-blocks-facebook-twitter-mass-texts-in-response-to-unrest241/ "Mediashift: India Blocks Facebook, Twitter, Mass Texts in Response to Unrest"
+[2]: http://www.zdnet.com/article/india-blocks-32-websites-including-github-internet-archive-pastebin-vimeo/ "ZDNet: India blocks 32 Websites including Github, Internet Archive, Pastebin, Vimeo"
+[3]: https://twitter.com/pranesh_prakash/status/550196008416600064/photo/1?ref_src=twsrc%5Etfw "Twitter: Insane! Govt orders blocking of 32 websites including @internetarchive @vimeo @github @pastebin #censorship #FoEx"
+[4]: http://www.nytimes.com/2015/08/04/world/asia/india-orders-blocking-of-857-pornography-websites-targeted-by-activist.html "New York Times: India Blocks 857 Pornography Websites, Defying Supreme Court Decision"
+* [[1]] <http://mediashift.org/2012/08/india-blocks-facebook-twitter-mass-texts-in-response-to-unrest241/> Mediashift: India Blocks Facebook, Twitter, Mass Texts in Response to Unrest
+* [[2]] <http://www.zdnet.com/article/india-blocks-32-websites-including-github-internet-archive-pastebin-vimeo/> ZDNet: India blocks 32 Websites including Github, Internet Archive, Pastebin, Vimeo
+* [[3]] <https://twitter.com/pranesh_prakash/status/550196008416600064/photo/1?ref_src=twsrc%5Etfw> Twitter: Insane! Govt orders blocking of 32 websites including @internetarchive @vimeo @github @pastebin #censorship #FoEx
+* [[4]] <http://www.nytimes.com/2015/08/04/world/asia/india-orders-blocking-of-857-pornography-websites-targeted-by-activist.html> New York Times: India Blocks 857 Pornography Websites, Defying Supreme Court Decision
