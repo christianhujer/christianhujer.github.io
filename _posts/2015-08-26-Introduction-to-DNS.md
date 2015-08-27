@@ -68,7 +68,7 @@ For this you need two things:
 * An A record pointing `slack.companyname.com` to your webserver's IP address.
 * A redirection setup in your webserver.
 
-Here's an example redirection setup:
+Here's an example redirection setup for the Apache httpd, which you could store in, depending on your system, i.e. `/etc/apache2/sites-enabled/teamname.conf`:
 
 {% highlight apache linenos %}
 <VirtualHost *:80>
@@ -107,9 +107,9 @@ You think this wouldn't happen in your country?
 Maybe you're wrong.
 Even in India, the largest democracy of the world, the government sometimes thinks that it knows better what the people should not see than the people themselves.
 
-* In August 2012, India blocked Facebook and Twitter <http://mediashift.org/2012/08/india-blocks-facebook-twitter-mass-texts-in-response-to-unrest241/>
-* From 2014-12-31 to 2015-01-02 GitHub, Vimeo, DailyMotion, a lot of pastebins and a lot of other sites were blocked in India <http://www.zdnet.com/article/india-blocks-32-websites-including-github-internet-archive-pastebin-vimeo/> <https://twitter.com/pranesh_prakash/status/550196008416600064/photo/1?ref_src=twsrc%5Etfw>
-* On 2015-08-03, India blocked 857 pornography websites, and that despite the fact that the Supreme Court declined a request to do so, becvause of the request of one activist. <http://www.nytimes.com/2015/08/04/world/asia/india-orders-blocking-of-857-pornography-websites-targeted-by-activist.html?_r=0>
+* In August 2012, India blocked Facebook and Twitter [1][1].
+* From 2014-12-31 to 2015-01-02 GitHub, Vimeo, DailyMotion, a lot of pastebins and a lot of other sites were blocked in India [2][2], [3][3].
+* On 2015-08-03, India blocked 857 pornography websites, and that despite the fact that the Supreme Court declined a request to do so, because of the request of one activist [4][4]
 
 If sites are blocked via DNS, the workaround is simple.
 And it is needed.
@@ -122,3 +122,10 @@ There are at least five, maybe more workarounds:
 * Use a different DNS server. Often the one from Google would still work, the IP addresses of the Google DNS servers are `8.8.8.8` and `8.8.4.4`.
 * Setup your own DNS server.
 * Use something like the Tor network. **Warning** *Use Tor at your own risk! There's a lot of bad stuff going on inside the Tor network.*
+
+
+## References
+* [1]: http://mediashift.org/2012/08/india-blocks-facebook-twitter-mass-texts-in-response-to-unrest241/
+* [2]: http://www.zdnet.com/article/india-blocks-32-websites-including-github-internet-archive-pastebin-vimeo/
+* [3]: https://twitter.com/pranesh_prakash/status/550196008416600064/photo/1?ref_src=twsrc%5Etfw
+* [4]: http://www.nytimes.com/2015/08/04/world/asia/india-orders-blocking-of-857-pornography-websites
