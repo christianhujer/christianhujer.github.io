@@ -107,9 +107,9 @@ You think this wouldn't happen in your country?
 Maybe you're wrong.
 Even in India, the largest democracy of the world, the government sometimes thinks that it knows better what the people should not see than the people themselves.
 
-* In August 2012, India blocked Facebook and Twitter [1][1].
-* From 2014-12-31 to 2015-01-02 GitHub, Vimeo, DailyMotion, a lot of pastebins and a lot of other sites were blocked in India [2][2], [3][3].
-* On 2015-08-03, India blocked 857 pornography websites, and that despite the fact that the Supreme Court declined a request to do so, because of the request of one activist [4][4]
+* In August 2012, India blocked Facebook and Twitter [[1]][1].
+* From 2014-12-31 to 2015-01-02 GitHub, Vimeo, DailyMotion, a lot of pastebins and a lot of other sites were blocked in India [[2]][2], [[3]][3].
+* On 2015-08-03, India blocked 857 pornography websites, and that despite the fact that the Supreme Court declined a request to do so, because of the request of one activist [[4]][4]
 
 If sites are blocked via DNS, the workaround is simple.
 And it is needed.
@@ -129,7 +129,7 @@ There are at least five, maybe more workarounds:
 [2]: http://www.zdnet.com/article/india-blocks-32-websites-including-github-internet-archive-pastebin-vimeo/ "ZDNet: India blocks 32 Websites including Github..."
 [3]: https://twitter.com/pranesh_prakash/status/550196008416600064/photo/1?ref_src=twsrc%5Etfw "Twitter: "
 [4]: http://www.nytimes.com/2015/08/04/world/asia/india-orders-blocking-of-857-pornography-websites "New York Times: India orders blocking of 857 pornography websites"
-* [1] <http://mediashift.org/2012/08/india-blocks-facebook-twitter-mass-texts-in-response-to-unrest241/> Mediashift: India blocks Facebook, Twitter...
-* [2] <http://www.zdnet.com/article/india-blocks-32-websites-including-github-internet-archive-pastebin-vimeo/> ZDNet: India blocks 32 Websites including Github...
-* [3] <https://twitter.com/pranesh_prakash/status/550196008416600064/photo/1?ref_src=twsrc%5Etfw> Twitter:
-* [4] <http://www.nytimes.com/2015/08/04/world/asia/india-orders-blocking-of-857-pornography-websites> New York Times: India orders blocking of 857 pornography websites
+* [[1]] <http://mediashift.org/2012/08/india-blocks-facebook-twitter-mass-texts-in-response-to-unrest241/> Mediashift: India blocks Facebook, Twitter...
+* [[2]] <http://www.zdnet.com/article/india-blocks-32-websites-including-github-internet-archive-pastebin-vimeo/> ZDNet: India blocks 32 Websites including Github...
+* [[3]] <https://twitter.com/pranesh_prakash/status/550196008416600064/photo/1?ref_src=twsrc%5Etfw> Twitter:
+* [[4]] <http://www.nytimes.com/2015/08/04/world/asia/india-orders-blocking-of-857-pornography-websites> New York Times: India orders blocking of 857 pornography websites
