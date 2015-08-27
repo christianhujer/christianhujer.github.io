@@ -72,12 +72,12 @@ Here's an example redirection setup:
 
 {% highlight apache linenos %}
 <VirtualHost *:80>
-    ServerName slack.nelkinda.com
+    ServerName slack.companyname.com
     Redirect 303 / https://teamname.slack.com/
 </VirtualHost>
 {% endhighlight %}
 
-Replace `teamname.slack.com` with whatever is appropriate for you.
+Replace `slack.companyname.com` and `teamname.slack.com` with whatever is appropriate for you.
 
 The same can be used for other services as well, like Bitbucket, Github, Mingle, whatever you like.
 
