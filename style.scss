@@ -290,6 +290,9 @@ table.bordertable td, table.bordertable th {
 table.bordertable thead, table.bordertable tbody, table.bordertable tfoot, table.bordertable colgroup {
   border: 2px solid black;
 }
+table.bordertable thead, table.bordertable th {
+    background-color: lightblue;
+}
 
 table.bordertable .na {
     background-color: lightgray;
