@@ -44,6 +44,7 @@ The changes we do for that are:
 The resulting `start.xhtml` file looks like this:
 
 {% highlight xml linenos %}
+{% raw %}
 <?xml version="1.0"?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" data-ng-app="">
@@ -56,8 +57,9 @@ The resulting `start.xhtml` file looks like this:
 </head>
 <body>
 
-  <p>Nothing here {{{{'yet' + '!'}}}}</p>
+  <p>Nothing here {{'yet' + '!'}}</p>
 
 </body>
 </html>
+{% endraw %}
 {% endhighlight %}
