@@ -50,7 +50,7 @@ The resulting `start.xhtml` file looks like this:
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" data-ng-app="">
 <head>
   <meta charset="utf-8"/>
-  <title>My HTML File</title>
+  <title>My XHTML File</title>
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
   <link rel="stylesheet" href="css/app.css"/>
   <script src="bower_components/angular/angular.js"></script>
