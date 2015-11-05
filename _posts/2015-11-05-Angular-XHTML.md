@@ -56,7 +56,7 @@ The resulting `start.xhtml` file looks like this:
 </head>
 <body>
 
-  <p>Nothing here {{'{{\'yet\' + \'!\'}}'}}</p>
+  <p>Nothing here {{{{'yet' + '!'}}}}</p>
 
 </body>
 </html>
