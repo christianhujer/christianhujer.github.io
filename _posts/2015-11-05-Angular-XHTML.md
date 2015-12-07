@@ -27,7 +27,7 @@ In order to use XHTML instead of HTML, we need to
 ## Renaming index.html to start.xhtml
 This one is simple.
 
-    .../angular-phonecat $ mv app/{index.html,start.xhtml}
+    .../angular-phonecat $ git mv app/{index.html,start.xhtml}
 
 ## Telling Node http-server to serve from `start.xhtml` instead of `index.htm[l]` as directory index.
 TODO
@@ -63,3 +63,54 @@ The resulting `start.xhtml` file looks like this:
 </html>
 {% endraw %}
 {% endhighlight %}
+
+You could in theory also change the `<script></script>` element to use an empty element instead of start tag and end tag.
+That however stops you from serving your file as `text/html` to older browsers.
+I recommend to stick to the polyglot syntax which is XHTML5 that is compatible with browsers that do not understand XHTML / XML by making sure it's still parsed correctly with a normal HTML parser.
+
+# 1 Static Template
+
+This is a farily simple step as there's actually no new Angular code, just a few minor changes to the (X)HTML.
+Just merge with step-1:
+
+    .../angular-phonecat $ git merge -X rename-threshold=25 step-1
+    .../angular-phonecat $ vi app/start.xhtml
+    ( Resolve merge conflicts )
+    .../angular-phonecat $ git add app/start.xhtml
+    .../angular-phonecat $ git commit
+
+# 2 Angular Templates
+
+This is again a simple step.
+First, merge with step-2:
+
+    .../angular-phonecat $ git merge -X rename-threshold=25 step-2
+    .../angular-phonecat $ vi app/start.xhtml
+    ( Resolve merge conflicts )
+
+Then, change `ng-*` attributes to `data-ng-*`-attributes:
+
+    .../angular-phonecat $ sed -i -e 's/ ng-/ data-ng-/g' app/start.xhtml
+
+Finally, put everything in git.
+
+    .../angular-phonecat $ git add app/start.xhtml
+    .../angular-phonecat $ git commit
+
+# 3 Filtering Repeaters
+
+    ../angular-phonecat $ git merge --no-commit -X theirs -X rename-threshold=25 step-3
+    ../angular-phonecat $ sed -i -e 's/ ng-/ data-ng-/g' app/start.xhtml
+    ../angular-phonecat $ vi app/start.xhtml
+    ( Change <input> to <input/> )
+
+On top of that, there's now an end-to-end test that needs a small modification
+
+    .../angular-phonecat $ vi test/e2e/scenarios.js
+    ( Change `index.html` to `start.xhtml` )a
+
+Finally, commit to git:
+
+    .../angular-phonecat $ git commit
+
+
