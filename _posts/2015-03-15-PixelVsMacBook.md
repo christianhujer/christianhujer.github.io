@@ -10,16 +10,18 @@ The comparison of the Google Chromebook Pixel, the Apple MacBook and the Raspber
 Uh, Raspberry Pi?
 Yes.
 
+**Update** The table now also includes data for the Raspberry Pi 3!
+
 <table class="bordertable">
-    <caption>Comparison of the technical specifications of Apple MacBook 2015, Google Chromebook Pixel 2015 and Raspberry Pi 2</caption>
+    <caption>Comparison of the technical specifications of Apple MacBook 2015, Google Chromebook Pixel 2015 and Raspberry Pi 2 / 3</caption>
     <colgroup span="2" />
-    <colgroup span="6" />
+    <colgroup span="7" />
     <thead>
         <tr>
             <th colspan="2">Device</th>
             <th colspan="2">Apple MacBook</th>
             <th colspan="2">Google Chromebook Pixel</th>
-            <th colspan="2">Raspberry Pi 2</th>
+            <th colspan="4">Raspberry Pi</th>
         </tr>
         <tr>
             <th colspan="2">Model</th>
@@ -27,8 +29,10 @@ Yes.
             <th>Top</th>
             <th>Basic</th>
             <th>Top</th>
-            <th>Basic</th>
-            <th>Top</th>
+            <th>2 Basic</th>
+            <th>2 Top</th>
+            <th>3 Basic</th>
+            <th>3 Top</th>
         </tr>
     </thead>
     <tbody>
@@ -37,7 +41,7 @@ Yes.
             <th>Width</th>
             <td colspan="2">280.5 mm</td>
             <td colspan="2">297.7 mm</td>
-            <td rowspan="4" colspan="2" class="na">n/a</td>
+            <td rowspan="4" colspan="4" class="na">n/a</td>
         </tr>
         <tr>
             <th>Depth</th>
@@ -60,23 +64,25 @@ Yes.
             <th rowspan="5">CPU</th>
             <th rowspan="2">Model</th>
             <td colspan="4" style="text-align: center;">Intel Core</td>
-            <td colspan="2" style="text-align: center;">ARM</td>
+            <td colspan="4" style="text-align: center;">ARM</td>
         </tr>
         <tr>
             <td style="text-align: center;" colspan="2">M</td>
             <td style="text-align: center;">i5</td>
             <td style="text-align: center;">i7</td>
             <td style="text-align: center;" colspan="2">Cortex-A7</td>
+            <td style="text-align: center;" colspan="2">Cortex-A53</td>
         </tr>
         <tr>
             <th>Bits</th>
             <td colspan="4">64</td>
             <td colspan="2">32</td>
+            <td colspan="2">64</td>
         </tr>
         <tr>
             <th>Cores</th>
             <td colspan="4">2</td>
-            <td colspan="2">4</td>
+            <td colspan="4">4</td>
         </tr>
         <tr>
             <th>Clock (MHz)</th>
@@ -85,6 +91,7 @@ Yes.
             <td>2200</td>
             <td>2400</td>
             <td colspan="2">900</td>
+            <td colspan="2">1200</td>
         </tr>
     </tbody>
     <tbody>
@@ -93,20 +100,21 @@ Yes.
             <th>Size (GiB)</th>
             <td colspan="3">8</td>
             <td>16</td>
-            <td colspan="2">1</td>
+            <td colspan="4">1</td>
         </tr>
         <tr>
             <th>Clock</th>
             <td colspan="2">1600 MHz</td>
             <td colspan="2">?</td>
             <td colspan="2">?</td>
+            <td colspan="2">900 MHz</td>
         </tr>
     </tbody>
     <tbody>
         <tr>
             <th rowspan="2" colspan="2">GPU</th>
             <td colspan="4">Intel HD Graphics</td>
-            <td colspan="2" rowspan="2">Broadcom VideoCore IV</td>
+            <td colspan="4" rowspan="2">Broadcom VideoCore IV</td>
         </tr>
         <tr>
             <td colspan="2">5300</td>
@@ -122,6 +130,8 @@ Yes.
             <td>64</td>
             <td>16</td>
             <td>128</td>
+            <td>16</td>
+            <td>128</td>
         </tr>
     </tbody>
     <tbody>
@@ -129,7 +139,7 @@ Yes.
             <th rowspan="3">Battery</th>
             <th>Capacity</th>
             <td colspan="4">?</td>
-            <td colspan="2" rowspan="2" class="na">n/a</td>
+            <td colspan="4" rowspan="2" class="na">n/a</td>
         </tr>
         <tr>
             <th>Runtime</th>
@@ -140,6 +150,7 @@ Yes.
             <th>Max Cons.</th>
             <td colspan="4">?</td>
             <td colspan="2">700 ma</td>
+            <td colspan="2">2500 ma</td>
         </tr>
     </tbody>
     <tbody>
@@ -148,7 +159,7 @@ Yes.
             <th>Size</th>
             <td colspan="2">12"</td>
             <td colspan="2">12.85"</td>
-            <td rowspan="6" colspan="2" class="na">n/a</td>
+            <td rowspan="6" colspan="4" class="na">n/a</td>
         </tr>
         <tr>
             <th>Touch</th>
@@ -173,7 +184,7 @@ Yes.
         <tr>
             <th>supported<br />scaled<br />resolutions</th>
             <td colspan="2">1440 × 900<br />1280 × 800<br />1024 × 640</td>
-            <td colspan="2">?</td>
+            <td colspan="4">?</td>
         </tr>
     </tbody>
     <tbody>
@@ -181,13 +192,13 @@ Yes.
             <th rowspan="2">HDMI</th>
             <th>Ports</th>
             <td colspan="4">via USB Type-C (Adapter sold separately)</td>
-            <td colspan="2">1</td>
+            <td colspan="4">1</td>
         </tr>
         <tr>
             <th>Max Resolution</th>
             <td colspan="2">3840 × 2160</td>
             <td colspan="2">3840 × 2160 (?)</td>
-            <td colspan="2">1920 × 1200</td>
+            <td colspan="4">1920 × 1200</td>
         </tr>
     </tbody>
     <tbody>
@@ -196,12 +207,12 @@ Yes.
             <th>Format</th>
             <td colspan="2">480p</td>
             <td colspan="2">720p</td>
-            <td colspan="2">1080p</td>
+            <td colspan="4">1080p</td>
         </tr>
         <tr>
             <th>H.264</th>
             <td colspan="4">unknown</td>
-            <td colspan="2">yes</td>
+            <td colspan="4">yes</td>
         </tr>
     </tbody>
     <tbody>
@@ -210,6 +221,7 @@ Yes.
             <td colspan="4">Bluetooth 4.0</td>
             <td>no</td>
             <td>Bluetooth 4.0</td>
+            <td colspan="2">Bluetooth 4.1<br />Bluetooth Low Energy</td>
         </tr>
     </tbody>
     <tbody>
@@ -219,11 +231,13 @@ Yes.
             <td colspan="4">802.11 a/b/g/n/ac</td>
             <td>no</td>
             <td>802.11 a/b/g/n/ac</td>
+            <td>802.11 n</td>
+            <td>802.11 a/b/g/n/ac</td>
         </tr>
         <tr>
             <th>Ethernet</th>
             <td colspan="4" class="na">n/a</td>
-            <td colspan="2">RJ-45 100 MBit/s</td>
+            <td colspan="4">RJ-45 100 MBit/s</td>
         </tr>
     </tbody>
     <tbody>
@@ -233,18 +247,20 @@ Yes.
             <td colspan="4" class="na">n/a</td>
             <td>4</td>
             <td>2</td>
+            <td>4</td>
+            <td>3</td>
         </tr>
         <tr>
             <th>3.0 Ports</th>
             <td colspan="2" class="na">n/a</td>
             <td colspan="2">2</td>
-            <td colspan="2" class="na">n/a</td>
+            <td colspan="4" class="na">n/a</td>
         </tr>
         <tr>
             <th>USB-C Ports</th>
             <td colspan="2">1</td>
             <td colspan="2">2</td>
-            <td colspan="2" class="na">n/a</td>
+            <td colspan="4" class="na">n/a</td>
         </tr>
     </tbody>
     <tbody>
@@ -252,7 +268,7 @@ Yes.
             <th colspan="2">Card Reader</th>
             <td colspan="2">n/a</td>
             <td colspan="2">SD</td>
-            <td colspan="2">n/a</td>
+            <td colspan="4">n/a</td>
         </tr>
     </tbody>
     <tbody>
@@ -260,7 +276,7 @@ Yes.
             <th colspan="2">Native Operating System</th>
             <td colspan="2">Mac OS X Yosemite</td>
             <td colspan="2">Google Chrome OS</td>
-            <td colspan="2">Misc</td>
+            <td colspan="4">Misc</td>
         </tr>
     </tbody>
     <tbody>
@@ -272,6 +288,8 @@ Yes.
             <td>$1299</td>
             <td>ca. $60</td>
             <td>ca. $100</td>
+            <td>ca. $60</td>
+            <td>ca. $80</td>
         </tr>
     </tbody>
 </table>
@@ -310,6 +328,9 @@ The performance attributes of the Raspberry Pi 2 are that of a netbook - but so 
 </dl>
 
 ### Updates
+
+#### 2016-04-04
+- Included information on the Raspberry Pi 3
 
 #### 2015-03-30
 - Changed battery runtime for Apple MacBook from 12 hours to 10 hours, as this is what <http://www.apple.com/macbook/specs/> says.
