@@ -184,7 +184,7 @@ Yes.
         <tr>
             <th>supported<br />scaled<br />resolutions</th>
             <td colspan="2">1440 × 900<br />1280 × 800<br />1024 × 640</td>
-            <td colspan="4">?</td>
+            <td colspan="2">?</td>
         </tr>
     </tbody>
     <tbody>
